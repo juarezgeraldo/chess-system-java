@@ -47,7 +47,7 @@ public class UI {
 		return new ChessPosition(column, row);
 		}
 		catch (RuntimeException e) {
-			throw new InputMismatchException("Error reading ChessPosition. Valie value are from a1 to h8.");
+			throw new InputMismatchException("Error reading ChessPosition. Value are from a1 to h8.");
 		}
 	}
 	
